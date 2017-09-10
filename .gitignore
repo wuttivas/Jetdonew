@@ -1,5 +1,6 @@
-Temp/
 Library/
+ProjectSettings/
+Temp/
 ExportedObj/
 obj/
 *.svd
