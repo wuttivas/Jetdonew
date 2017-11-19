@@ -4,4 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scene/BattleTesting.unity
+    guid: 5970b5c9bcce01d438466508f0996508
+  - enabled: 1
+    path: Assets/_Scene/CharacterTesting.unity
+    guid: a84c90ebcc309ab4f97cf4c24b6c6193
+  - enabled: 1
+    path: Assets/_Scene/fightroom.unity
+    guid: ba78fc1aff5c32b4fbccc5566a456d95
+  - enabled: 1
+    path: Assets/_Scene/Room2.unity
+    guid: 190b18bd9a8961647b56f7c406503baa
+  - enabled: 1
+    path: Assets/_Scene/Room3.unity
+    guid: ac76948a06aa55146b370980ba67dcc7
+  - enabled: 1
+    path: Assets/_Scene/Room4.unity
+    guid: d8424430ddcf03c47a0da3d646eaeef2
+  - enabled: 1
+    path: Assets/_Scene/WorldMap.unity
+    guid: fd5d45ef06efc924681ed19f747af262
