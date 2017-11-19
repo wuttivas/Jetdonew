@@ -90,33 +90,33 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W))
             {
-                rotateGameObject.rotation = Quaternion.Euler(-90.0f, 45.0f, 0);
+                rotateGameObject.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
                 if (Input.GetKey(KeyCode.A))
-                    rotateGameObject.rotation = Quaternion.Euler(-90.0f, 0.0f, 0);
+                    rotateGameObject.rotation = Quaternion.Euler(0.0f, -45.0f, 0);
                 if (Input.GetKey(KeyCode.D))
-                    rotateGameObject.rotation = Quaternion.Euler(-90.0f, 90.0f, 0);
+                    rotateGameObject.rotation = Quaternion.Euler(0.0f, 45.0f, 0);
             }
             else if (!Input.GetKey(KeyCode.S))
             {
                 if (Input.GetKey(KeyCode.A))
-                    rotateGameObject.rotation = Quaternion.Euler(-90.0f, -45.0f, 0);
+                    rotateGameObject.rotation = Quaternion.Euler(0.0f, -90.0f, 0);
                 if (Input.GetKey(KeyCode.D))
-                    rotateGameObject.rotation = Quaternion.Euler(-90.0f, 135.0f, 0);
+                    rotateGameObject.rotation = Quaternion.Euler(0.0f, 90.0f, 0);
             }
             if (Input.GetKey(KeyCode.S))
             {
-                rotateGameObject.rotation = Quaternion.Euler(-90.0f, 235.0f, 0);
+                rotateGameObject.rotation = Quaternion.Euler(0.0f, 180.0f, 0);
                 if (Input.GetKey(KeyCode.A))
-                    rotateGameObject.rotation = Quaternion.Euler(-90.0f, 270.0f, 0);
+                    rotateGameObject.rotation = Quaternion.Euler(0.0f, 215.0f, 0);
                 if (Input.GetKey(KeyCode.D))
-                    rotateGameObject.rotation = Quaternion.Euler(-90.0f, 180.0f, 0);
+                    rotateGameObject.rotation = Quaternion.Euler(0.0f, 135.0f, 0);
             }
             else if (!Input.GetKey(KeyCode.W))
             {
                 if (Input.GetKey(KeyCode.A))
-                    rotateGameObject.rotation = Quaternion.Euler(-90.0f, -45.0f, 0);
+                    rotateGameObject.rotation = Quaternion.Euler(0.0f, -90.0f, 0);
                 if (Input.GetKey(KeyCode.D))
-                    rotateGameObject.rotation = Quaternion.Euler(-90.0f, 135.0f, 0);
+                    rotateGameObject.rotation = Quaternion.Euler(0.0f, 90.0f, 0);
             }
             if (Input.GetKey(KeyCode.W))
             {
