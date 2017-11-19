@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     public float nonAttackMoveSpeed;
     public Transform rotateGameObject;
     //
-    private Animator getAnimator;
+    public Animator getAnimator;
 
     void Start()
     {
