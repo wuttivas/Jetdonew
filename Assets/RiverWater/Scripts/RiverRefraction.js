@@ -9,10 +9,7 @@ var flowspeed : float;
 var renderers : Renderer[];
 var refraction : boolean;
 
-
- camera;
-
-
+//cameras
 private var WaterCam : GameObject;
 var FarClipPlane : int;
 
@@ -21,12 +18,11 @@ function Start () {
 	matrice = new Vector2(0,0);
 
 	WaterCam = new GameObject("RefractCamera");
-	WaterCam.AddComponent("Camera");
-	WaterCam.camera.enabled = false;
-	WaterCam.camera.farClipPlane = camera.farClipPlane;
-	WaterCam.camera.depth = camera.depth-1;
-	WaterCam.camera.cullingMask = 1 + 0;
-	
+	WaterCam.AddComponent.<Camera>();
+	WaterCam.GetComponent.<Camera>().enabled = true;
+	WaterCam.GetComponent.<Camera>().farClipPlane = GetComponent.<Camera>().farClipPlane;
+	WaterCam.GetComponent.<Camera>().depth = GetComponent.<Camera>().depth-1;
+	WaterCam.GetComponent.<Camera>().cullingMask = 1 + 0;
 }
 
 function Update () {
@@ -50,8 +46,8 @@ function OnPreCull () {
 	if (refraction){
 		WaterCam.transform.position = transform.position;
 		WaterCam.transform.rotation = transform.rotation;
-		WaterCam.camera.rect = Rect(0,0,1.0f/quality,1.0f/quality);
-		WaterCam.camera.Render();
+		WaterCam.GetComponent.<Camera>().rect = Rect(0,0,1.0f/quality,1.0f/quality);
+		WaterCam.GetComponent.<Camera>().Render();
 		tex.Resize(Screen.width/quality, Screen.height/quality, TextureFormat.ARGB32, false);
 		tex.ReadPixels(new Rect(0,0,Screen.width/quality,Screen.width/quality),0,0);
 		tex.Apply();
