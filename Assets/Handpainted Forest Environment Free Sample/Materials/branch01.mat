@@ -9,95 +9,54 @@ Material:
   m_Name: branch01
   m_Shader: {fileID: 50, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
-  m_LightmapFlags: 5
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TexEnvs:
-    - first:
-        name: _BumpMap
-      second:
+    - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Diffuse
-      second:
+    - _Diffuse:
         m_Texture: {fileID: 2800000, guid: 07b6c5f871ffaae469366cf28a43a777, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _GlossMap
-      second:
+    - _GlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _MainTex
-      second:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 5b8dbbf8c77d0f34cbcfc4bb5e0fb98f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _ShadowOffset
-      second:
+    - _ShadowOffset:
         m_Texture: {fileID: 2800000, guid: 07b6c5f871ffaae469366cf28a43a777, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _TranslucencyMap
-      second:
+    - _TranslucencyMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _AO
-      second: 0
-    - first:
-        name: _BaseLight
-      second: 0.51785713
-    - first:
-        name: _Cutoff
-      second: 0.78571403
-    - first:
-        name: _InvFade
-      second: 1
-    - first:
-        name: _Occlusion
-      second: 0
-    - first:
-        name: _ShadowStrength
-      second: 0
-    - first:
-        name: _Shininess
-      second: 0.01
-    - first:
-        name: _SquashAmount
-      second: 1
-    - first:
-        name: _TranslucencyViewDependency
-      second: 1
-    - first:
-        name: _test
-      second: 9.021464
+    - _AO: 0
+    - _BaseLight: 0.51785713
+    - _Cutoff: 0.78571403
+    - _InvFade: 1
+    - _Occlusion: 0
+    - _ShadowStrength: 0
+    - _Shininess: 0.01
+    - _SquashAmount: 1
+    - _TranslucencyViewDependency: 1
+    - _test: 9.021464
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 0.74264705, g: 0.71813065, b: 0.23480752, a: 1}
-    - first:
-        name: _Emission
-      second: {r: 0, g: 0, b: 0, a: 0}
-    - first:
-        name: _Scale
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _SpecColor
-      second: {r: 0, g: 0, b: 0, a: 0}
-    - first:
-        name: _TintColor
-      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
-    - first:
-        name: _TranslucencyColor
-      second: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.74264705, g: 0.71813065, b: 0.23480752, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TranslucencyColor: {r: 1, g: 1, b: 1, a: 1}

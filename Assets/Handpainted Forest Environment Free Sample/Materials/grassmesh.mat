@@ -9,104 +9,65 @@ Material:
   m_Name: grassmesh
   m_Shader: {fileID: 10511, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
-  m_LightmapFlags: 5
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TexEnvs:
-    - first:
-        name: _BumpMap
-      second:
+    - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Control
-      second:
+    - _Control:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _GlossMap
-      second:
+    - _GlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _MainTex
-      second:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 63853af8fe89f914180455c41fa6429b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _ShadowOffset
-      second:
+    - _ShadowOffset:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Splat0
-      second:
+    - _Splat0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Splat1
-      second:
+    - _Splat1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Splat2
-      second:
+    - _Splat2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Splat3
-      second:
+    - _Splat3:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _TranslucencyMap
-      second:
+    - _TranslucencyMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _AO
-      second: 0
-    - first:
-        name: _BaseLight
-      second: 0
-    - first:
-        name: _Cutoff
-      second: 0.69642854
-    - first:
-        name: _Occlusion
-      second: 3.2142856
-    - first:
-        name: _ShadowStrength
-      second: 0.78571427
-    - first:
-        name: _Shininess
-      second: 0.078125
-    - first:
-        name: _SquashAmount
-      second: 1
-    - first:
-        name: _TranslucencyViewDependency
-      second: 0.575
+    - _AO: 0
+    - _BaseLight: 0
+    - _Cutoff: 0.69642854
+    - _Occlusion: 3.2142856
+    - _ShadowStrength: 0.78571427
+    - _Shininess: 0.078125
+    - _SquashAmount: 1
+    - _TranslucencyViewDependency: 0.575
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _Scale
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _TranslucencyColor
-      second: {r: 0.73, g: 0.85, b: 0.41, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Scale: {r: 1, g: 1, b: 1, a: 1}
+    - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
